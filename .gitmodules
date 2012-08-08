@@ -1,0 +1,27 @@
+[submodule "django-ckeditor"]
+	path = django-ckeditor
+	url = https://github.com/dwaiter/django-ckeditor.git
+[submodule "sources/django-ckeditor"]
+	path = sources/django-ckeditor
+	url = https://github.com/dwaiter/django-ckeditor.git
+[submodule "sources/django-dtpanel-htmltidy"]
+	path = sources/django-dtpanel-htmltidy
+	url = https://github.com/joymax/django-dtpanel-htmltidy.git
+[submodule "sources/django-google-maps"]
+	path = sources/django-google-maps
+	url = https://github.com/madisona/django-google-maps.git
+[submodule "sources/django_compressor"]
+	path = sources/django_compressor
+	url = https://github.com/jezdez/django_compressor.git
+[submodule "sources/django-debug-toolbar"]
+	path = sources/django-debug-toolbar
+	url = https://github.com/django-debug-toolbar/django-debug-toolbar
+[submodule "sources/django-rosetta"]
+	path = sources/django-rosetta
+	url = https://github.com/mbi/django-rosetta.git
+[submodule "sources/sorl-thumbnail"]
+	path = sources/sorl-thumbnail
+	url = https://github.com/sorl/sorl-thumbnail.git
+[submodule "sources/django-transmeta"]
+	path = sources/django-transmeta
+	url = https://github.com/bearstech/django-transmeta.git

@@ -1,0 +1,22 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+ 
+{% block title %}{{ title }} | TodoAsitencia{% endblock %}
+ 
+{% block branding %}
+<style type="text/css">
+body {
+font-size: 1.1em; 
+}
+th {
+font-size: 1.1em; 
+}
+  #header
+  {
+    /* your style here */
+  }
+</style>
+<h1 id="site-name">TodoAsistencia</h1>
+{% endblock %}
+ 
+{% block nav-global %}{% endblock %}

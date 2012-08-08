@@ -1,0 +1,10 @@
+{% load staticfiles %}
+
+
+<ul id="{{ id }}">
+  {% for item in menu %}
+    <li>
+      <a href='{% url node item.slug %}' {% if item.slug == selected.slug or item.slug == selected.get_parent.slug  %}class='active'{% endif %} title='{{ item.name }}'>{{ item.name }}</a>
+    </li>
+  {% endfor %}
+</ul>
